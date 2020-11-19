@@ -18,8 +18,8 @@ Require the module
 
 Convert with convert()
 
-     let converted = capitalized.join(" ");
-     return converted
+     const converter = require("title-case-converter")
+     let convertedSentence = converter("my name is gaurav") //"My Name Is Gaurav"
 
 Where
 
